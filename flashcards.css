@@ -1,19 +1,110 @@
-h1, div {
+html {
+    background-color: #ffffff;
+    justify-content: center;
+    
+}
+
+body {
+    background-color: #DCDCDC;
+    border-radius: 15px; 
+    box-shadow: 1px 3px 3px 1px #696969;
+    align-content: center;  
+    width: 60%;  
+    margin: auto;
+}
+
+h1 {
+    
+    font-family: helvetica;
+    text-shadow: 2px 2px #000;
+    display: flex;
+    justify-content: center;
+    color: #2F4F4F;
+    text-align: center; 
+    text-decoration: underline 5px #000
+}
+
+h2 {
+    text-shadow: 2px 2px #000;
+    font-family: helvetica;
+    display: flex;
+    justify-content: center;
     color: red;
-    border-style: ridge;
     text-align: center; 
 }
 
-#button {
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    box-shadow: 1px 3px 3px 1px #696969;
+    font-family: helvetica;
     display: flex;
     justify-content: space-around;
     margin: auto;
     text-align: center;
     
 }
+ #buttonUserSubmit {
+    box-shadow: 1px 3px 3px 1px #696969;
+    font-family: helvetica;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+
+ }
+
+section {
+    box-shadow: 1px 3px 3px 1px #696969;
+    display: flex;
+    align-content: center;
+    border-style: ridge;
+    border-color:#000;
+    border-width: 1px;
+    width: 50%;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    text-align: start;
+    flex-wrap: nowrap;
+}
+
 
 footer {
-    color: red;
-    border-style: ridge;
+    color: #000;
     text-align: center; 
+}
+
+
+
+#userInputQuestion {
+    box-shadow: 1px 3px 3px 1px #696969;
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
+}
+
+.inputBox {
+    box-shadow: 1px 3px 3px 1px #696969;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    border-style: ridge;
 }

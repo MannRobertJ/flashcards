@@ -7,12 +7,15 @@
     <title>Flashcard app</title>
     <link rel="stylesheet" type="text/css" href="flashcards.css">
   </head>
+
   <body>
-    <body>
+  
       <h1>Flashcards</h1>
+
       <div>
           <p>Click on the button when you think you know the answer.</p>
       </div>
+
       <section id="totalbox" class="box">
         <form id="flashcard" action="turnFlashCardOver()">
             <p>What is 1+1?</p>
@@ -26,13 +29,46 @@
         <p>CLICK ME</p>
       </button>
 
+      <div>
+
+      <article id="userInput" class="globalInputBox">
+
+            <h2>
+                <p>Feeling creative?</p>
+            </h2>
+
+        <form onsubmit="userFlash(); return false" id="userFlash">
+                <input  id="userQuestion" value=""  placeholder="Type question here!" />
+                <input  id="userAnswer"  placeholder="Type the answer!" />
+                <input type="submit" value="click">        
+        </form>
+<!-- 
+          <form onsubmit= "return false" id="userInputQuestion" class="inputBox">
+              <input type="text"  placeholder="Type question here!" />
+            </form>
+
+          
+
+            <form onsubmit= "return false" id="userInputAnswer" class="inputBox">
+                
+              </form>
+ -->
+            </article>
+
+          <br>
+        
+
+        </div>
+
+        
+      
+
       <footer>
-        <br />
         Made by Naceur and Robert
       </footer>
+
     </body>
 
     <script src="./flashcards.js"></script>
   </body>
 </html>
-
