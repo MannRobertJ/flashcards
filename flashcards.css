@@ -1,0 +1,19 @@
+h1, div {
+    color: red;
+    border-style: ridge;
+    text-align: center; 
+}
+
+#button {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    
+}
+
+footer {
+    color: red;
+    border-style: ridge;
+    text-align: center; 
+}
